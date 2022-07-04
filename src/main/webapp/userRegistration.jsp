@@ -1,5 +1,5 @@
 <%@ page import="java.sql.*"%>
-<%@ page import="com.mysql.jdbc.*"%>
+
 <% 
 	String userName = request.getParameter("userName"); 
 	String password = request.getParameter("password"); 
