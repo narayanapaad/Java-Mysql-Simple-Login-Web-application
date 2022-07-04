@@ -3,7 +3,7 @@
 	String userName = request.getParameter("userName"); 
 	String password = request.getParameter("password"); 
 	String firstName = request.getParameter("firstName"); 
-	String lastName = request.getParameter("lastName"); 
+	String lastName = request.getParameter("lastName");  
 	String email = request.getParameter("email"); 
 	Class.forName ( "com.mysql.jdbc.Driver"); 
 	Connection con = DriverManager.getConnection("jdbc:mysql://44.201.86.215:3306/mysql", "root", "Vilambam@12");
