@@ -10,7 +10,7 @@
 	String email = request.getParameter("email"); 
 	string db_user = System.getenv("USER")
 	Class.forName ( "com.mysql.jdbc.Driver"); 
-	Connection con = DriverManager.getConnection("jdbc:mysql://172.17.0.3:3306/mysql", db_user, "Vilambam@12");
+	Connection con = DriverManager.getConnection("jdbc:mysql://172.17.0.2:3306/mysql", db_user, "Vilambam@12");
 	Statement st = con.createStatement(); 
 	int i = st.executeUpdate("insert into USER(first_name, last_name, email, username, password, regdate) values ('" + firstName + "','" + lastName + "','" + email + "','" + userName + "','" + password + "', CURDATE())");
 	if (i > 0) { 
