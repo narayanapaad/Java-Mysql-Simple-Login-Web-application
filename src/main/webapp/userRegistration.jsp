@@ -8,6 +8,7 @@
 	String firstName = request.getParameter("firstName"); 
 	String lastName = request.getParameter("lastName");  
 	String email = request.getParameter("email"); 
+	String db_user = System.getenv("USER");
 
 	Class.forName ( "com.mysql.jdbc.Driver"); 
 	Connection con = DriverManager.getConnection("jdbc:mysql://172.17.0.2:3306/mysql", db_user, "Vilambam@12");
