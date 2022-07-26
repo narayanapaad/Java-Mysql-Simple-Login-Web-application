@@ -2,7 +2,7 @@
   xsi:schemaLocation="http://maven.apache.org/POM/4.0.0 http://maven.apache.org/maven-v4_0_0.xsd">
   <modelVersion>4.0.0</modelVersion>
   <groupId>com.javawebtutor</groupId>
-  <artifactId>LoginWebApp:1.0</artifactId>
+  <artifactId>LoginWebApp</artifactId>
   <packaging>war</packaging>
   <version>1.0-SNAPSHOT</version>
   <name>LoginWebApp Maven Webapp</name>
@@ -28,6 +28,6 @@
 	</dependency> 
   </dependencies>
   <build>
-    <finalName>LoginWebApp:1.0</finalName>
+    <finalName>LoginWebApp</finalName>
   </build>
 </project>
